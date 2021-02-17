@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.Professional = void 0;
 var Professional = /** @class */ (function () {
     function Professional(name, age, genre, weight, height, hairColor, eyeColor, race, isRetired, nationality, oscarsNumber, profession) {
         this.name = name;
@@ -18,5 +21,4 @@ var Professional = /** @class */ (function () {
     };
     return Professional;
 }());
-var p1 = new Professional("mike", 17, "male", 80, 178, "brown", "brown", "caucasic", false, "spanish", 1, "actor");
-console.log(p1.printProfessional());
+exports.Professional = Professional;

@@ -1,4 +1,4 @@
-class Professional
+export class Professional
 {
     public name:string;
     public age:number;
@@ -35,7 +35,3 @@ class Professional
     }
 
 }
-
-let pro1:Professional = new Professional ("mike",17,"male",80,178,"brown","brown","caucasic",false,"spanish",1,"actor");
-
-console.log(pro1.printProfessional());
