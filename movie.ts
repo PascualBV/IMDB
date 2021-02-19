@@ -1,6 +1,9 @@
 import {Professional} from "./professional";
 
 export class Movie {
+    obtenerInstanciaIMDB(arg0: string): any {
+        throw new Error("Method not implemented.");
+    }
     public title:string
     public releaseYear:number
     public actors:Professional []

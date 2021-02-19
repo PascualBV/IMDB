@@ -8,6 +8,9 @@ var Movie = /** @class */ (function () {
         this.nationality = nationality;
         this.genre = genre;
     }
+    Movie.prototype.obtenerInstanciaIMDB = function (arg0) {
+        throw new Error("Method not implemented.");
+    };
     Movie.prototype.printMovie = function () {
         var datos = [];
         for (var i = 0; i < this.actors.length; i++) {
